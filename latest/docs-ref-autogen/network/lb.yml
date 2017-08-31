@@ -32,7 +32,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --backend-pool-name
     summary: The name of the backend address pool.
@@ -42,7 +42,7 @@ items:
     summary: The name of the frontend IP configuration.
     description: ''
   - name: --location -l
-    summary: Location. You can configure the default location using az configure --defaults location=<location>.
+    summary: Location. You can configure the default location using `az configure --defaults location=&lt;location&gt;`.
     description: ''
   - name: --no-wait
     summary: Do not wait for the long running operation to finish.
@@ -95,7 +95,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_lb_delete
   name: az network lb delete
   summary: Delete a load balancer.
@@ -109,14 +109,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_lb_list
   name: az network lb list
   summary: List load balancers.
@@ -125,14 +125,14 @@ items:
   - azurecli
   parameters:
   - name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_lb_show
   name: az network lb show
   summary: Show details of a load balancer.
@@ -146,7 +146,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --expand
     summary: Expands referenced resources.
@@ -156,7 +156,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_lb_update
   name: az network lb update
   summary: Update a load balancer.
@@ -170,7 +170,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --add
     summary: 'Add an object to a list of objects by specifying a path and key value pairs.  Example: --add property.listProperty <key=value, string or JSON string>.'
@@ -186,7 +186,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_network_lb_address_pool
   name: az network lb address-pool
@@ -321,9 +321,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/8f63a18f7a6677ab12f7e96d8b5af0204773bd09/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/8f63a18f7a6677ab12f7e96d8b5af0204773bd09/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
 updated_at: 8/26/2017 5:18:32 AM
 ms.date: 8/26/2017

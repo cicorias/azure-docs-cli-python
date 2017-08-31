@@ -40,7 +40,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_watcher_list
   name: az network watcher list
   summary: List Network Watchers.
@@ -53,7 +53,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_watcher_show_next_hop
   name: az network watcher show-next-hop
   summary: Show information on the 'next hop' for a VM.
@@ -85,7 +85,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_watcher_show_security_group_view
   name: az network watcher show-security-group-view
   summary: Show detailed security information on a VM given the currently configured NSG.
@@ -106,7 +106,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_watcher_show_topology
   name: az network watcher show-topology
   summary: Show the network topology for a resource group.
@@ -126,7 +126,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_watcher_test_connectivity
   name: az network watcher test-connectivity
   summary: Test whether a direct TCP connection can be established between a Virtual Machine and a given endpoint, such as another VM or an arbitrary remote server.
@@ -139,7 +139,7 @@ items:
     summary: Name or ID of the resource from which to originate traffic.
     description: Currently only Virtual Machines are supported.
   - name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --source-port
     summary: Port number from which to originate traffic.
@@ -158,7 +158,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_watcher_test_ip_flow
   name: az network watcher test-ip-flow
   summary: Test IP flow to/from a VM given the currently configured NSG rules.
@@ -199,7 +199,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_network_watcher_configure
   name: az network watcher configure
@@ -274,9 +274,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/8f63a18f7a6677ab12f7e96d8b5af0204773bd09/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/8f63a18f7a6677ab12f7e96d8b5af0204773bd09/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
 updated_at: 8/26/2017 5:18:32 AM
 ms.date: 8/26/2017

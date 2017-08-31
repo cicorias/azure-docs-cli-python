@@ -39,11 +39,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --port
     summary: 'The port to fetch AAD token. Default: 50342.'
@@ -60,7 +60,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_create
   name: az vmss create
   summary: Create an Azure Virtual Machine Scale Set.
@@ -101,7 +101,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --custom-data
     summary: Custom init script file or text (cloud-init, cloud-config, etc..).
@@ -120,7 +120,7 @@ items:
     summary: Do not wait for the long running operation to finish.
     description: ''
   - name: --secrets
-    summary: 'One or many Key Vault secrets as JSON strings or files via @<file path> containing [{ "sourceVault": { "id": "value" }, "vaultCertificates": [{ "certificateUrl": "value", "certificateStore": "cert store name (only on windows)"}] }].'
+    summary: 'One or many Key Vault secrets as JSON strings or files via `@&lt;file path&gt;` containing `[{ "sourceVault": { "id": "value" }, "vaultCertificates": [{ "certificateUrl": "value", "certificateStore": "cert store name (only on windows)"}] }]`.'
     description: ''
   - name: --single-placement-group
     parameterValueGroup: false, true
@@ -145,7 +145,7 @@ items:
     summary: Password for the VM if authentication type is 'Password'.
     description: ''
   - name: --admin-username
-    defaultValue: appveyor
+    defaultValue: chaochen
     summary: Username for the VM.
     description: ''
   - name: --authentication-type
@@ -258,7 +258,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_deallocate
   name: az vmss deallocate
   summary: Deallocate virtual machines in a scale set.
@@ -268,11 +268,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --instance-ids
     summary: 'Space separated list of IDs (ex: 1 2 3 ...) or * for all instances. If not provided, the action will be applied on the scaleset itself.'
@@ -285,7 +285,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_delete
   name: az vmss delete
   summary: Deletes a VM scale set.
@@ -295,11 +295,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --no-wait
     summary: Do not wait for the long running operation to finish.
@@ -309,7 +309,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_delete_instances
   name: az vmss delete-instances
   summary: Delete virtual machines in a scale set.
@@ -323,11 +323,11 @@ items:
     description: ''
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --no-wait
     summary: Do not wait for the long running operation to finish.
@@ -337,7 +337,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_get_instance_view
   name: az vmss get-instance-view
   summary: Get instance view for a scale set or its VM instances.
@@ -347,11 +347,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --instance-id
     summary: An VM instance id, or use "*" to list instance view for all VMs in a scale set.
@@ -361,7 +361,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_list
   name: az vmss list
   summary: List scale sets.
@@ -370,14 +370,14 @@ items:
   - azurecli
   parameters:
   - name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_list_instance_connection_info
   name: az vmss list-instance-connection-info
   summary: Get the IP address and port number used to connect to individual instances.
@@ -387,18 +387,18 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_list_instance_public_ips
   name: az vmss list-instance-public-ips
   summary: List public IP addresses of VM instances.
@@ -408,18 +408,18 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_list_instances
   name: az vmss list-instances
   summary: Gets a list of all virtual machines in a VM scale sets.
@@ -429,11 +429,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --expand
     summary: The expand expression to apply to the operation.
@@ -449,7 +449,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_list_skus
   name: az vmss list-skus
   summary: Gets a list of SKUs available for your VM scale set, including the minimum and maximum VM instances allowed for each SKU.
@@ -459,18 +459,18 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_restart
   name: az vmss restart
   summary: Restart virtual machines in a scale set.
@@ -480,11 +480,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --instance-ids
     summary: 'Space separated list of IDs (ex: 1 2 3 ...) or * for all instances. If not provided, the action will be applied on the scaleset itself.'
@@ -497,7 +497,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_scale
   name: az vmss scale
   summary: Change the number of VMs in an virtual machine scale set.
@@ -507,7 +507,7 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --new-capacity
@@ -515,7 +515,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --no-wait
     summary: Do not wait for the long running operation to finish.
@@ -525,7 +525,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_show
   name: az vmss show
   summary: Show scale set or its VM instance.
@@ -535,11 +535,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --instance-id
     summary: VM instance id. If missing, show scale set.
@@ -549,7 +549,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_start
   name: az vmss start
   summary: Start virtual machines in a virtual machine scale set.
@@ -559,11 +559,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --instance-ids
     summary: 'Space separated list of IDs (ex: 1 2 3 ...) or * for all instances. If not provided, the action will be applied on the scaleset itself.'
@@ -576,7 +576,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_stop
   name: az vmss stop
   summary: Power off (stop) virtual machines in a virtual machine scale set.
@@ -586,11 +586,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --instance-ids
     summary: 'Space separated list of IDs (ex: 1 2 3 ...) or * for all instances. If not provided, the action will be applied on the scaleset itself.'
@@ -603,7 +603,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_update
   name: az vmss update
   summary: Update a virtual machine scale set.
@@ -613,11 +613,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --no-wait
     summary: Do not wait for the long running operation to finish.
@@ -636,7 +636,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_update_instances
   name: az vmss update-instances
   summary: Upgrade virtual machines in a virtual machine scale set.
@@ -650,11 +650,11 @@ items:
     description: ''
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --no-wait
     summary: Do not wait for the long running operation to finish.
@@ -664,7 +664,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_vmss_wait
   name: az vmss wait
   summary: Place the CLI in a waiting state until a condition of the scale set is met.
@@ -674,11 +674,11 @@ items:
   parameters:
   - isRequired: true
     name: --name -n
-    summary: Scale set name. You can configure the default using az configure --defaults vmss=<name>.
+    summary: Scale set name. You can configure the default using `az configure --defaults vmss=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --created
     summary: Wait till created with 'provisioningState' at 'Succeeded'.
@@ -708,7 +708,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_vmss_assign_identity
   name: az vmss assign-identity
@@ -831,9 +831,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/e8e4eb5f4d5565d5f0c5bee27d75a76f0bff3231/src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/e8e4eb5f4d5565d5f0c5bee27d75a76f0bff3231/src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
 updated_at: 8/3/2017 12:04:27 AM
 ms.date: 8/3/2017

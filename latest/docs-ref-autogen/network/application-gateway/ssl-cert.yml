@@ -37,7 +37,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --no-wait
     summary: Do not wait for the long running operation to finish.
@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_application_gateway_ssl_cert_delete
   name: az network application-gateway ssl-cert delete
   summary: Delete an SSL certificate.
@@ -65,7 +65,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --no-wait
     summary: Do not wait for the long running operation to finish.
@@ -75,7 +75,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_application_gateway_ssl_cert_list
   name: az network application-gateway ssl-cert list
   summary: List SSL certificates.
@@ -89,14 +89,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_application_gateway_ssl_cert_show
   name: az network application-gateway ssl-cert show
   summary: Show details of an SSL certificate.
@@ -114,14 +114,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_network_application_gateway_ssl_cert_update
   name: az network application-gateway ssl-cert update
   summary: Update an SSL certificate.
@@ -139,7 +139,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --cert-file
     summary: The path to the PFX certificate file.
@@ -164,7 +164,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_network_application_gateway_ssl_cert_create
   name: az network application-gateway ssl-cert create
@@ -194,9 +194,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/8f63a18f7a6677ab12f7e96d8b5af0204773bd09/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/8f63a18f7a6677ab12f7e96d8b5af0204773bd09/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
 updated_at: 8/26/2017 5:18:32 AM
 ms.date: 8/26/2017

@@ -58,7 +58,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_delete
   name: az keyvault certificate delete
   summary: Deletes a certificate from a specified key vault.
@@ -79,7 +79,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_download
   name: az keyvault certificate download
   summary: Download a certificate from a KeyVault.
@@ -119,11 +119,11 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_get_default_policy
   name: az keyvault certificate get-default-policy
   summary: Get a default policy for a self-signed certificate.
-  description: "This default policy can be used in conjunction with <title_reference>az keyvault create</title_reference> to create a self-signed certificate. The default policy can also be used as a starting point to create derivative policies. \r\n                            \r\n                            Also see: <a href=\"https://docs.microsoft.com/en-us/rest/api/keyvault/certificates-and-policies\">https://docs.microsoft.com/en-us/rest/api/keyvault/certificates-and-policies</a>."
+  description: "This default policy can be used in conjunction with `az keyvault create` to create a self-signed certificate. The default policy can also be used as a starting point to create derivative policies. \r\n                            \r\n                            Also see: <a href=\"https://docs.microsoft.com/en-us/rest/api/keyvault/certificates-and-policies\">https://docs.microsoft.com/en-us/rest/api/keyvault/certificates-and-policies</a>."
   langs:
   - azurecli
   examples:
@@ -139,7 +139,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_import
   name: az keyvault certificate import
   summary: Import a certificate into KeyVault.
@@ -181,7 +181,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_list
   name: az keyvault certificate list
   summary: List certificates in a specified key vault.
@@ -201,7 +201,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_list_deleted
   name: az keyvault certificate list-deleted
   summary: Lists the deleted certificates in the specified vault, currently available for recovery.
@@ -221,7 +221,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_list_versions
   name: az keyvault certificate list-versions
   summary: List the versions of a certificate.
@@ -245,7 +245,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_purge
   name: az keyvault certificate purge
   summary: Permanently deletes the specified deleted certificate.
@@ -266,7 +266,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_recover
   name: az keyvault certificate recover
   summary: Recovers the deleted certificate back to its current version under /certificates.
@@ -287,7 +287,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_set_attributes
   name: az keyvault certificate set-attributes
   summary: Updates the specified attributes associated with the given certificate.
@@ -321,7 +321,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_show
   name: az keyvault certificate show
   summary: Gets information about a specified certificate.
@@ -345,7 +345,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_keyvault_certificate_show_deleted
   name: az keyvault certificate show-deleted
   summary: Retrieves information about the specified deleted certificate.
@@ -366,7 +366,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_keyvault_certificate_contact
   name: az keyvault certificate contact
@@ -474,9 +474,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/e0ee922a1f9da2b2bc29c7eed72872eca26df7e5/src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/e0ee922a1f9da2b2bc29c7eed72872eca26df7e5/src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
 updated_at: 6/16/2017 10:50:05 PM
 ms.date: 6/16/2017

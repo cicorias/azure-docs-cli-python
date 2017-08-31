@@ -36,7 +36,7 @@ items:
     summary: Number of bytes captured per packet. Excess bytes are truncated.
     description: ''
   - name: --filters
-    summary: JSON encoded list of packet filters. Use @<file path> to load from file.
+    summary: JSON encoded list of packet filters. Use `@&lt;file path&gt;` to load from file.
     description: ''
   - name: --time-limit
     summary: Maximum duration of the capture session in seconds.
@@ -55,7 +55,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_network_watcher_packet_capture_create
   name: az network watcher packet-capture create
@@ -73,9 +73,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/8f63a18f7a6677ab12f7e96d8b5af0204773bd09/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/8f63a18f7a6677ab12f7e96d8b5af0204773bd09/src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
 updated_at: 8/26/2017 5:18:32 AM
 ms.date: 8/26/2017

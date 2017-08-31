@@ -3,7 +3,7 @@ items:
 - uid: az_redis
   name: az redis
   summary: Access to a secure, dedicated cache for your Azure applications.
-  description: If you don't have the redis component installed, add it with az component update --add redis.
+  description: If you don't have the redis component installed, add it with `az component update --add redis`.
   langs:
   - azurecli
   children:
@@ -28,7 +28,7 @@ items:
   parameters:
   - isRequired: true
     name: --location -l
-    summary: Location. You can configure the default location using az configure --defaults location=<location>.
+    summary: Location. You can configure the default location using `az configure --defaults location=&lt;location&gt;`.
     description: ''
   - isRequired: true
     name: --name -n
@@ -36,7 +36,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - isRequired: true
     name: --sku
@@ -73,7 +73,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_delete
   name: az redis delete
   summary: Deletes a Redis cache.
@@ -87,14 +87,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_export
   name: az redis export
   summary: Export data stored in a redis cache.
@@ -116,7 +116,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --file-format
     summary: ''
@@ -126,7 +126,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_force_reboot
   name: az redis force-reboot
   summary: Reboot specified Redis node(s).
@@ -145,7 +145,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --shard-id
     summary: If clustering is enabled, the ID of the shard to be rebooted.
@@ -155,7 +155,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_import_method
   name: az redis import-method
   summary: Import data into a redis cache.
@@ -177,14 +177,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_list
   name: az redis list
   summary: Lists all Redis caches in a resource group.
@@ -194,14 +194,14 @@ items:
   parameters:
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_list_all
   name: az redis list-all
   summary: Gets all Redis caches in the specified subscription.
@@ -214,7 +214,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_list_keys
   name: az redis list-keys
   summary: Retrieve a Redis cache's access keys.
@@ -228,14 +228,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_regenerate_keys
   name: az redis regenerate-keys
   summary: Regenerate Redis cache's access keys.
@@ -254,14 +254,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_show
   name: az redis show
   summary: Gets a Redis cache (resource description).
@@ -275,14 +275,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_update
   name: az redis update
   summary: Scale or update settings of a redis cache.
@@ -296,7 +296,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --sku
     parameterValueGroup: Basic, Premium, Standard
@@ -319,7 +319,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_redis_update_settings
   name: az redis update-settings
   summary: (DEPRECATED) Update the settings of a redis cache.
@@ -337,14 +337,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_redis_create
   name: az redis create
@@ -407,9 +407,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/71c76c65a64e7dd4788a51d85644b01012f80356/src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/71c76c65a64e7dd4788a51d85644b01012f80356/src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
 updated_at: 6/8/2017 4:07:47 PM
 ms.date: 6/8/2017

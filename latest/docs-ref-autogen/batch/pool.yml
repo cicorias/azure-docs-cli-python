@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_pool_delete
   name: az batch pool delete
   summary: Deletes a pool from the specified account.
@@ -134,7 +134,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_pool_list
   name: az batch pool list
   summary: Lists all of the pools in the specified account.
@@ -165,7 +165,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_pool_reset
   name: az batch pool reset
   summary: Update the properties of the specified pool. All updatable properties are replaced with the values specified or reset to default values if unspecified.
@@ -215,7 +215,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_pool_resize
   name: az batch pool resize
   summary: Resize (or stop resizing) the Batch pool.
@@ -269,7 +269,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_pool_set
   name: az batch pool set
   summary: Update the properties of the specified pool. Properties can be updated independently, but when a property is updated in a sub-group, for example 'start task', all properties of that group are reset.
@@ -334,7 +334,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_pool_show
   name: az batch pool show
   summary: Gets information about the specified pool.
@@ -378,7 +378,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_batch_pool_all_statistics
   name: az batch pool all-statistics
@@ -450,9 +450,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/088adea672270a1d92ffd209980c2815bb7c9b1d/src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/088adea672270a1d92ffd209980c2815bb7c9b1d/src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
 updated_at: 8/1/2017 5:49:57 PM
 ms.date: 8/1/2017

@@ -40,7 +40,7 @@ items:
     description: ''
   - isRequired: true
     name: --origin
-    summary: 'Endpoint origin specified by the following space delimited 3 tuple: www.example.com http_port https_port. The HTTP and HTTPsports are optional and will default to 80 and 443 respectively.'
+    summary: 'Endpoint origin specified by the following space delimited 3 tuple: `www.example.com http_port https_port`. The HTTP and HTTPsports are optional and will default to 80 and 443 respectively.'
     description: ''
   - isRequired: true
     name: --profile-name
@@ -48,7 +48,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --content-types-to-compress
     summary: List of content types on which compression applies. The value should be a valid MIME type.
@@ -58,7 +58,7 @@ items:
     summary: If compression is enabled, content will be served as compressed if user requests for a compressed version. Content won't be compressed on CDN when requested content is smaller than 1 byte or larger than 1 MB.
     description: ''
   - name: --location -l
-    summary: Location. You can configure the default location using az configure --defaults location=<location>.
+    summary: Location. You can configure the default location using `az configure --defaults location=&lt;location&gt;`.
     description: ''
   - name: --no-http
     parameterValueGroup: false, true
@@ -87,7 +87,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_delete
   name: az cdn endpoint delete
   summary: Deletes an existing CDN endpoint with the specified endpoint name under the specified subscription, resource group and profile.
@@ -109,14 +109,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_list
   name: az cdn endpoint list
   summary: Lists existing CDN endpoints.
@@ -134,14 +134,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_load
   name: az cdn endpoint load
   summary: Pre-loads a content to CDN.
@@ -167,14 +167,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_purge
   name: az cdn endpoint purge
   summary: Removes a content from CDN.
@@ -200,14 +200,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_show
   name: az cdn endpoint show
   summary: Gets an existing CDN endpoint with the specified endpoint name under the specified subscription, resource group and profile.
@@ -225,14 +225,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_start
   name: az cdn endpoint start
   summary: Starts an existing CDN endpoint that is on a stopped state.
@@ -254,14 +254,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_stop
   name: az cdn endpoint stop
   summary: Stops an existing running CDN endpoint.
@@ -283,14 +283,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_update
   name: az cdn endpoint update
   summary: Update a CDN endpoint to manage how content is delivered.
@@ -315,7 +315,7 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --content-types-to-compress
     summary: List of content types on which compression applies. The value should be a valid MIME type.
@@ -359,7 +359,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_cdn_endpoint_validate_custom_domain
   name: az cdn endpoint validate-custom-domain
   summary: Validates the custom domain mapping to ensure it maps to the correct CDN endpoint in DNS.
@@ -381,14 +381,14 @@ items:
     description: ''
   - isRequired: true
     name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_cdn_endpoint_create
   name: az cdn endpoint create
@@ -433,9 +433,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/217eb97315774787894412130db1b3533469edb9/src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/217eb97315774787894412130db1b3533469edb9/src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
 updated_at: 6/21/2017 8:20:15 PM
 ms.date: 6/21/2017

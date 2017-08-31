@@ -45,10 +45,10 @@ items:
     summary: If the encryption type is User assigned, this is the key version of the key the user wishes to use.
     description: ''
   - name: --location -l
-    summary: Location. You can configure the default location using az configure --defaults location=<location>.
+    summary: Location. You can configure the default location using `az configure --defaults location=&lt;location&gt;`.
     description: ''
   - name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   - name: --tags
     summary: Space separated tags in 'key[=value]' format. Use "" to clear existing tags.
@@ -62,7 +62,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_dls_account_delete
   name: az dls account delete
   summary: Deletes the Data Lake Store account.
@@ -82,7 +82,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_dls_account_enable_key_vault
   name: az dls account enable-key-vault
   summary: Attempts to enable a user managed Key Vault for encryption of the specified Data Lake Store account.
@@ -102,7 +102,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_dls_account_list
   name: az dls account list
   summary: Lists Data Lake Store accounts in a subscription or a specific resource group.
@@ -111,14 +111,14 @@ items:
   - azurecli
   parameters:
   - name: --resource-group -g
-    summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
+    summary: Name of resource group. You can configure the default group using `az configure --defaults group=&lt;name&gt;`.
     description: ''
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
       branch: master
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_dls_account_show
   name: az dls account show
   summary: Retrieves the Data Lake Store account.
@@ -138,7 +138,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_dls_account_update
   name: az dls account update
   summary: Updates a Data Lake Store account.
@@ -183,7 +183,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_dls_account_create
   name: az dls account create
@@ -252,9 +252,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/1259d747dd87891678b306384d59b781e8ac5a8c/src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/1259d747dd87891678b306384d59b781e8ac5a8c/src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
 updated_at: 7/14/2017 1:07:00 AM
 ms.date: 7/14/2017

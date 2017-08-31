@@ -46,7 +46,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_account_delete
   name: az batch account delete
   summary: Deletes the specified Batch account.
@@ -70,7 +70,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_account_list
   name: az batch account list
   summary: List the Batch accounts associated with a subscription or resource group.
@@ -86,7 +86,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_account_login
   name: az batch account login
   summary: Log in with specified Batch account through Azure Active Directory or Shared Key authentication.
@@ -110,7 +110,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_account_set
   name: az batch account set
   summary: Update the properties of the specified Batch account. Properties that are not specified remain unchanged.
@@ -137,7 +137,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_batch_account_show
   name: az batch account show
   summary: Gets information about the specified Batch account.
@@ -158,7 +158,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_batch_account_autostorage_keys
   name: az batch account autostorage-keys
@@ -206,9 +206,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/088adea672270a1d92ffd209980c2815bb7c9b1d/src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/088adea672270a1d92ffd209980c2815bb7c9b1d/src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
 updated_at: 8/1/2017 5:49:57 PM
 ms.date: 8/1/2017

@@ -81,7 +81,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_download
   name: az storage blob download
   summary: Downloads a blob to a file path, with automatic chunking and progress notifications.
@@ -164,7 +164,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_download_batch
   name: az storage blob download-batch
   summary: Download blobs in a container recursively.
@@ -203,7 +203,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_exists
   name: az storage blob exists
   summary: Indicates whether the blob exists.
@@ -242,7 +242,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_generate_sas
   name: az storage blob generate-sas
   summary: Generates a shared access signature for the blob.
@@ -308,7 +308,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_list
   name: az storage blob list
   summary: List blobs in a given container.
@@ -352,7 +352,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_set_tier
   name: az storage blob set-tier
   summary: Sets the block or page blob tiers on the blob.
@@ -397,7 +397,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_show
   name: az storage blob show
   summary: Returns properties for a named blob in a container in a storage account.
@@ -455,7 +455,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_snapshot
   name: az storage blob snapshot
   summary: Creates a read-only snapshot of a blob.
@@ -509,7 +509,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_update
   name: az storage blob update
   summary: Sets system properties on the blob.
@@ -578,7 +578,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_upload
   name: az storage blob upload
   summary: Upload a specified file to a storage blob.
@@ -669,7 +669,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_upload_batch
   name: az storage blob upload-batch
   summary: Upload files to storage container as blobs.
@@ -758,7 +758,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 - uid: az_storage_blob_url
   name: az storage blob url
   summary: Creates the url to access a blob.
@@ -796,7 +796,7 @@ items:
     remote:
       branch: master
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-      repo: https://github.com/Azure/azure-cli.git
+      repo: https://github.com/azure/azure-cli/.git
 commands:
 - uid: az_storage_blob_copy
   name: az storage blob copy
@@ -901,9 +901,9 @@ globalParameters:
   summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
 - name: --verbose
   summary: Increase logging verbosity. Use --debug for full debug logs.
-doc_source_url_repo: https://github.com/Azure/azure-cli/blob/master/
+doc_source_url_repo: https://github.com/azure/azure-cli//blob/master/
 doc_source_url_path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-original_content_git_url: https://github.com/Azure/azure-cli/blob/master/src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
-gitcommit: https://github.com/Azure/azure-cli/blob/9e6df7dbf37e62ec6d5dc16e6fac817655c4c848/src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
+original_content_git_url: https://github.com/azure/azure-cli//blob/master/src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
+gitcommit: https://github.com/azure/azure-cli//blob/9e6df7dbf37e62ec6d5dc16e6fac817655c4c848/src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
 updated_at: 8/24/2017 11:18:16 PM
 ms.date: 8/24/2017
